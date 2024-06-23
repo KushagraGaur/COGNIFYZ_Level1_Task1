@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 70pt ;
+}
+p{
+    text-align: center;
+    font-size: 16pt;
+}
+.images{
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a{
+    text-decoration: solid;
+    cursor: pointer;
+    color: black;
+}
+/* a:visited{
+    color: grey;
+} */
+a:hover{
+    color: #808080;
+}
+a:active{
+    color: #add8e6;
+}
+.container{
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr;
+    place-content: center;
+    padding-left: 15%;
+}
+.form-container{
+    align-items: grid;
+    grid-template-columns: 2fr;
+}
